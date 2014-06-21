@@ -11,5 +11,8 @@ CREATE TABLE IF NOT EXISTS `User` (
 -- Dumping data for table `User`
 --
 
+-- email    : 'admin@admin.com'
+-- password : 'admin'
+
 INSERT INTO `User` (`id`, `email`, `password`, `is_active`) VALUES
 (1, 'admin@admin.com', '$2y$10$bTNzM0NyM3RTNGx0eTM0a.AOX409D3S8mIGSNBCUKpaAwF9zrxMZu', 1);
